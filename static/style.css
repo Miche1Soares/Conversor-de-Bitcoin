@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imgbtc{
+    margin: 20px 0 0 0;
+}
+
+.valbtc{
+    width: fit-content;
+    border: 5px solid orange;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0 0 0;
+}
+
+.input_val{
+    max-width: 800px;
+    border: 5px solid orange;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px 0 0 0;
+}
+
+.input_val h1{
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.iso{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.iso a{
+    position: absolute;
+    right: 0;
+    transform: translateX(-10%);
+    font-size: 10pt;
+    text-decoration: none;
+}
