@@ -16,9 +16,9 @@
         <img class="imgbtc position-relative top-0 start-50 translate-middle-x" src="{{ url_for('static', filename = 'images/btc.png') }}" width="200px">
 
         <div class="valbtc text-center position-relative top-0 start-50 translate-middle-x">
-            <h1>US$ 10000.00</h1>
-            <h4>€ 10000.00</h4>
-            <h4>R$ 100000.00</h4> 
+            <h1>US$ {{ conteudo[0] }}</h1>
+            <h4>€ {{ conteudo[1] }}</h4>
+            <h4>R$ {{ conteudo[2] }}</h4> 
         </div>
           
         
@@ -64,6 +64,7 @@
                     ISO 4217
                 </a>
             </div>
+
             
             <div class="input-group position-relative top-0 start-50 translate-middle-x" style="margin-top: 10px;">
                 <input type="text" class="form-control" type="number" name="quant_fiat" placeholder="Quantidade FIAT..." min="1" step="0.01">
@@ -73,11 +74,12 @@
                 <button class="btn btn-outline-warning" type="submit" id="button-addon2" name="acao">Calcular</button>
             </div>
 
-            <h1>100 BRL = 0.00100000 BTC</h1>
+            <h1>{{ conteudo[3][0] }}</h1>
 
         </form>
 
     </div>
+
     
 </body>
 </html>

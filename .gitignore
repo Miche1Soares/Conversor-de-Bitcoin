@@ -133,3 +133,5 @@ dmypy.json
 #====================
 
 Conversor_de_Bitcoin_git
+
+config.py
